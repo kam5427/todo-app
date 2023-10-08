@@ -16,7 +16,7 @@ const List = ({ isModalOpen, inputValue, priorityValue, descriptionValue, taskVa
     <div>
       <h2>Anaconda to-do</h2>
       <div>
-        <button onClick={openModal}>Добавить task</button>
+        <button onClick={openModal}>Добавить task </button>
         {/* {elements.map((element, index) => (
                     <li key={index}>Task: {element}</li>
                 ))} */}
