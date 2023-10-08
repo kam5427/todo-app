@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import React,{ useContext } from "react";
 import Modal from "./Modal";
-// import { useSelector, useDispatch } from "react-redux";
-// import { addTodo, toggleTodo, deleteTodo } from "../Redux/todosSlice";
 
 function List() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  // const todos = useSelector((state) => state.todos);
-  // const dispatch = useDispatch();
 
   const openModal = () => {
     setIsModalOpen(true);
