@@ -63,24 +63,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/anaconda" element={
-            <Anaconda
-                isModalOpen={isModalOpen}
-                  inputValue={inputValue}
-                priorityValue={priorityValue}
-                descriptionValue={descriptionValue}
-                taskValueArr={taskValueArr}
-
-            />
-        } />
-        <Route path="/projects/dragon" element={
-            <Dragon
-                isModalOpen={isModalOpen}
-                inputValue={inputValue}
-                priorityValue={priorityValue}
-                descriptionValue={descriptionValue}
-                taskValueArr={taskValueArr}
-            />} />
+        <Route path="/projects/anaconda" element={<Anaconda />} />
+        <Route path="/projects/dragon" element={<Dragon />} />
       </Routes>
     </Context.Provider>
   );
